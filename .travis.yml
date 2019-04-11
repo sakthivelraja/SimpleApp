@@ -1,6 +1,5 @@
 language: csharp
 solution: SimpleApp.sln
-mono: none
 dotnet: 2.1.502
 install:
 - dotnet restore
