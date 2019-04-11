@@ -3,7 +3,7 @@ solution: SimpleApp.sln
 mono: none
 dotnet: 2.1.502
 install:
-- nuget restore SimpleApp.sln
+- dotnet restore
 - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
 script:
 - msbuild /p:Configuration=Release SimpleApp.sln
