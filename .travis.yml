@@ -1,5 +1,7 @@
 language: csharp
 solution: SimpleApp.sln
+mono: none
+dotnet: 2.1.502
 install:
 - nuget restore SimpleApp.sln
 - nuget install xunit.runners -Version 1.9.2 -OutputDirectory testrunner
